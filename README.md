@@ -1,5 +1,10 @@
 # [Ninja](https://ninja-build.org/)
 
+## Install
+```bash
+sudo apt install ninja-build
+```
+
 ## [manual](https://ninja-build.org/manual.html)
 
 ## Writing your own Ninja files
@@ -39,4 +44,16 @@ deps
 ### Evaluation and scoping
 ```
 subninja
+```
+
+---
+
+## Tools
+### [Graphviz - Graph Visualization Software](https://graphviz.org/)
+```
+$ sudo apt install graphviz
+```
+https://iamaman.tistory.com/1685 
+```
+dot -Tjpg foo.dot -o foo.jpg
 ```
